@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: 
+    url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3Jhd3BpeGVsX29mZmljZV8yOV90cm9waWNhbF9yZXNvcnRfc3dpbW1pbmdfcG9vbF93aXRoX3BhbG1fdHJlZV83ODkzZGI3ZC00NzBkLTQwOTctYTQ5MS00YjNhMzdhYWFkNWJfMS5qcGc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    background-color: rgba(189, 189, 184, 0.884); 
+    width: 700px;
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    height: 400px; width: 600px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.intro {
+    padding-top: 25px;
+}
+.intro p {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+.intro button {
+    margin-top: 25px;
+}
+.btn {
+    background-color: rgb(87, 152, 206);
+    color: antiquewhite;
+    height: 40px; width: 130px;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px rgb(87, 152, 206);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn:active {
+    background-color: rgb(78, 79, 80);
+    color: antiquewhite;
+    height: 40px; width: 130px;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px rgb(78, 79, 80);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.quote {
+    margin-top: 27px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(30, 55, 75);
+}
+.author {
+    margin-top: 40px;
+    position: absolute;
+    right: 70px;
+    font-size: 17px;
+    color: rgb(124, 4, 4);
+}
