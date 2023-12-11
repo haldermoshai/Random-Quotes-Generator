@@ -3,6 +3,8 @@ let button = document.querySelector(".btn");
 let quoteData = document.querySelector(".quote");
 let authorData = document.querySelector(".author");
 const qtext = document.querySelector(".qtext");
+
+// dummy array set of 20 different quotes
 const quotes = [{
     quote : `"The purpose of our lives is to be happy."`,
     author : `— Dalai Lama`
