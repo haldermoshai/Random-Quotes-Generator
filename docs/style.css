@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: 
     url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3Jhd3BpeGVsX29mZmljZV8yOV90cm9waWNhbF9yZXNvcnRfc3dpbW1pbmdfcG9vbF93aXRoX3BhbG1fdHJlZV83ODkzZGI3ZC00NzBkLTQwOTctYTQ5MS00YjNhMzdhYWFkNWJfMS5qcGc.jpg);
     background-repeat: no-repeat;
